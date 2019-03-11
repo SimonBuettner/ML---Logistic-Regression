@@ -14,7 +14,7 @@ Y = df[["Price"]].values
 
 Xtrain, Xtest, Ytrain, Ytest = train_test_split(X, Y, random_state = 0, test_size = 0.25)
 
-
+# prints train and test data with different colors
 plt.scatter(Xtrain, Ytrain)
 plt.scatter(Xtest, Ytest, color = "red")
 plt.title("Data Points")
@@ -23,14 +23,6 @@ plt.show()
 # assigns the QM as X-Axis and Price as Y-Axis
 model = LinearRegression()
 model.fit(Xtrain, Ytrain)
-
-print("The prediction of the sales price of a flat with 42 sqm is: ")
-print(model.predict([[42]]))
-
-# gets the min & max value of x to adjust the line
-x_min = min(df["QM"])
-x_max = max(df["QM"])
-
 
 # Prints a predicted-line on basis of the blue dots of trainings-data
 predicted = model.predict(Xtest)
