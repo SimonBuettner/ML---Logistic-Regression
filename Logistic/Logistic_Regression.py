@@ -17,7 +17,7 @@ X = df[["monthlySport", "monthlyHealthyFood"]].values
 y = df["desease"].values
 
 # Splitting the Set in Test and Train Data:
-XTrain, XTest, yTrain, yTest = train_test_split(X, y, random_state = 1, test_size = 0.25)
+XTrain, XTest, yTrain, yTest = train_test_split(X, y, test_size = 0.25)
 
 
 # Would change the scale between x- and y-axis. But not really necessary,
@@ -45,7 +45,7 @@ model.fit(XTrain, yTrain)
 yPredicted = model.predict(XTest)
 
 print("Die Vorhersagegenauigkeit entspricht: ")
-print(model.score(XTest, yTest))
+print(100 * model.score(XTest, yTest), "%")
 
 # Prints diagram of the real test Data:
 plt.scatter(XTest[:, 0], XTest[:, 1], c=yTest)
