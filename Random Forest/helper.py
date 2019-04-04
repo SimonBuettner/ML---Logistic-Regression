@@ -31,11 +31,11 @@ def plot_classifier(model, X, Z, proba = False, xlabel = None, ylabel = None):
                    extent = (x_min, x_max, y_min, y_max), 
                    vmin = 0, 
                    vmax = 1, 
-                   alpha = 0.7)
+                   alpha = 0.5)
     else: 
         zz = model.predict(np.c_[xx.ravel(), yy.ravel()])
         plt.contourf(xx, yy, zz.reshape(xx.shape), 
-                     alpha = 0.7, 
+                     alpha = 0.5, 
                      vmin = 0, 
                      vmax = 1)
 
