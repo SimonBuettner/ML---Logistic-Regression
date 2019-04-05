@@ -1,0 +1,3 @@
+class EingabeException (Exception):
+
+    pass

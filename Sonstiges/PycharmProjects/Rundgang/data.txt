@@ -1,0 +1,16 @@
+REQUEST_ID,FIRMA,DATUM_REQUEST,SESSION_ID,VIEWTIME_IN_S,CONTENT_NAME,SEARCH_QUERY,SEARCH_TREFFER,BESTELLSUMME,KAUFPROZESS_STUFE,ABSATZ,COUPONWERT,NEUKUNDE,EVENT_TYPE,ANZAHL,ARTIKELNR,PROMOTIONNR,PPRICE,GROESSE,MARKTKENNZEICHEN
+4287791388,1,14/01/19 09:16:37,231039339,43,Recostrecke/Artikeldetailseite,,,,,,,,view,1,246718,033,59.99,-,951
+4287791440,1,14/01/19 09:16:39,231037997,4,Angebotsstrecke/Artikeldetailseite/Wäsche/Damenwäsche/Nachtwäsche/Schlafanzüge/1,,,,,,,,view,1,158285,063,35.99,44,312
+4287791382,1,14/01/19 09:16:37,231031927,62,Angebotsstrecke/Artikeldetailseite/SALE/NULL/NULL/NULL/17,,,,,,,,view,1,196868,070,6.99,-,724
+4287790050,1,14/01/19 09:15:44,231036239,11,Suchstrecke/Artikeldetailseite/1,,,,,,,,view,1,643087,006,14.99,-,281
+4287788582,1,14/01/19 09:14:49,231034971,22,Angebotsstrecke/Artikeldetailseite/Damen/Shirtjacken/NULL/NULL/1,,,,,,,,view,1,243362,066,21.99,42,723
+4287789729,1,14/01/19 09:15:32,231036667,7,Suchstrecke/Artikeldetailseite,,,,,,,,view,1,763550,187,22.99,-,732
+4287791074,1,14/01/19 09:16:26,231039073,1,Suchstrecke/Artikeldetailseite,,,,,,,,view,1,508393,019,29.99,44,724
+4287787854,1,14/01/19 09:14:23,231035969,5,Suchstrecke/Artikeldetailseite,,,,,,,,view,1,508972,004,56.99,26,672
+4287790026,1,14/01/19 09:15:44,231038963,10,Angebotsstrecke/Artikeldetailseite/SALE/Damenmode/Shirts/NULL/1,,,,,,,,view,1,433737,018,14.99,-,723
+4287790232,1,14/01/19 09:15:52,231038938,48,Angebotsstrecke/Artikeldetailseite/Schuhe/Damenschuhe/Pantoletten/NULL/1,,,,,,,,view,1,154176,128,56.99,40,114
+4287782293,1,14/01/19 09:10:57,231038741,6,Angebotsstrecke/Artikeldetailseite/Damen/Blusen/Langarmblusen,,,,,,,,view,1,682142,018,18.99,44,713
+4287782112,1,14/01/19 09:10:50,231038038,11,Angebotsstrecke/Artikeldetailseite/SALE/NULL/NULL/NULL/1,,,,,,,,view,1,551857,039,29.99,20,822
+4287782559,1,14/01/19 09:11:07,231034866,32,Angebotsstrecke/Artikeldetailseite/SALE/NULL/NULL/NULL/8,,,,,,,,view,1,140976,034,15.99,52,644
+4287785901,1,14/01/19 09:13:12,231038186,37,Angebotsstrecke/Artikeldetailseite/Live-Search/hausanzug herren/NULL/NULL/1,,,,,,,,view,1,508117,007,59.99,48,551
+4287785874,1,14/01/19 09:1:11,231038571,1,Angebotsstrecke/Artikeldetailseite/Damen/Blusen/NULL/NULL/1,,,,,,,,view,1,294255,094,29.99,54,713
